@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="SpaceInvaders.SpriteGameMan">
+    <Position X="2.5" Y="4.25" Width="1.5" />
+    <Members>
+      <Method Name="Create" Hidden="true" />
+      <Method Name="derivedCreateNode" Hidden="true" />
+      <Method Name="Destroy" Hidden="true" />
+      <Method Name="Dump" Hidden="true" />
+      <Method Name="DumpStats" Hidden="true" />
+      <Method Name="Find" Hidden="true" />
+      <Method Name="privGetInstance" Hidden="true" />
+      <Method Name="Remove" Hidden="true" />
+      <Method Name="SpriteGameMan" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAYAAAAAAAAAAAAAAAABpAAAAABIAEAAAAgAAAAAAAA=</HashCode>
+      <FileName>Sprite\SpriteGameMan.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.ManBase" Collapsed="true">
+    <Position X="2.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAIAEAAAAAAiCAgAAIgAAQCAIAgAEABAAAAAAAAA=</HashCode>
+      <FileName>Manager\ManBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Comment CommentText="- Create a new factory&#xD;&#xA;- Pass in what you want,&#xD;&#xA;and factory does the rest">
+    <Position X="7.5" Y="2.75" Height="0.969" Width="2.075" />
+  </Comment>
+  <Class Name="SpaceInvaders.AlienFactory">
+    <Position X="3.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAAAAAAAAAAAACAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameObject\Aliens\AlienFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Comment CommentText="three key points:&#xD;&#xA;- LL Managers have priority insert&#xD;&#xA;- BaseAdd() can either do regular or priroity insert with default 0.&#xD;&#xA;- Virtual getPriority method">
+    <Position X="4.75" Y="0.5" Height="1.531" Width="2.138" />
+  </Comment>
+  <Class Name="SpaceInvaders.DLinkMan">
+    <Position X="0.5" Y="3" Width="1.5" />
+    <Members>
+      <Method Name="AddToEnd" Hidden="true" />
+      <Method Name="AddToFront" Hidden="true" />
+      <Method Name="DLinkMan" Hidden="true" />
+      <Method Name="GetIterator" Hidden="true" />
+      <Method Name="Remove" Hidden="true" />
+      <Method Name="RemoveFromFront" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAAAAAAABgAAAAAAAAACAAAAAgAAAAs=</HashCode>
+      <FileName>Manager\DLinkMan.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.SpriteBatchMan" Collapsed="true">
+    <Position X="6.5" Y="2.5" Width="1.5" />
+    <Members>
+      <Method Name="Create" Hidden="true" />
+      <Method Name="derivedCreateNode" Hidden="true" />
+      <Method Name="Destroy" Hidden="true" />
+      <Method Name="Draw" Hidden="true" />
+      <Method Name="Dump" Hidden="true" />
+      <Method Name="DumpStats" Hidden="true" />
+      <Method Name="Find" Hidden="true" />
+      <Method Name="privGetInstance" Hidden="true" />
+      <Method Name="Remove" Hidden="true" />
+      <Method Name="SpriteBatchMan" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAYAAAAAAAAAAgAAAAQBpAAAAABIAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>Sprite\SpriteBatchMan.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="psSpriteBatchCompare" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SpaceInvaders.ManBase">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <Members>
+      <Method Name="baseDump" Hidden="true" />
+      <Method Name="baseDumpStats" Hidden="true" />
+      <Method Name="baseFind" Hidden="true" />
+      <Method Name="baseGetIterator" Hidden="true" />
+      <Method Name="baseRemove" Hidden="true" />
+      <Method Name="baseSetReserve" Hidden="true" />
+      <Method Name="derivedCreateNode" Hidden="true" />
+      <Method Name="ManBase" Hidden="true" />
+      <Method Name="privFillReservedPool" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>CAAAAIAEAAAAAAiCAgAAIgAAQCAIAgAEABAAAAAAAAA=</HashCode>
+      <FileName>Manager\ManBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.TimerEventMan">
+    <Position X="8.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABYEAAAAAAAAAAAAAAABpAAAAABIAEAAAAACAAAAAQA=</HashCode>
+      <FileName>Timer\TimerEventMan.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.ListBase">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <Members>
+      <Method Name="AddToFront" Hidden="true" />
+      <Method Name="GetIterator" Hidden="true" />
+      <Method Name="Remove" Hidden="true" />
+      <Method Name="RemoveFromFront" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAgAAAAs=</HashCode>
+      <FileName>Manager\ListBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.NodeBase">
+    <Position X="2.75" Y="0.75" Width="1.5" />
+    <Members>
+      <Method Name="Compare" Hidden="true" />
+      <Method Name="Dump" Hidden="true" />
+      <Method Name="GetName" Hidden="true" />
+      <Method Name="Wash" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAAAAAAgAAAAAAAQAAAAABAAAAABAA=</HashCode>
+      <FileName>Manager\NodeBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.DLink" Collapsed="true">
+    <Position X="2.75" Y="2" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAgAAAAAAAIAAAAAIAAAAAABBAAA=</HashCode>
+      <FileName>Manager\DLink.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.SpriteBatch">
+    <Position X="2.75" Y="3" Width="1.5" />
+    <Members>
+      <Method Name="Attach" Hidden="true" />
+      <Method Name="Disable" Hidden="true" />
+      <Method Name="Dump" Hidden="true" />
+      <Method Name="Enable" Hidden="true" />
+      <Field Name="EnableDraw" Hidden="true" />
+      <Method Name="GetName" Hidden="true" />
+      <Method Name="GetSpriteNodeMan" Hidden="true" />
+      <Field Name="name" Hidden="true" />
+      <Field Name="poSpriteNodeMan" Hidden="true" />
+      <Method Name="privClear" Hidden="true" />
+      <Method Name="Set" Hidden="true" />
+      <Method Name="SetName" Hidden="true" />
+      <Method Name="SpriteBatch" Hidden="true" />
+      <Method Name="Wash" Hidden="true" />
+    </Members>
+    <NestedTypes>
+      <Enum Name="SpaceInvaders.SpriteBatch.Name" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Sprite\SpriteBatch.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAgAAEAAAAxAhAAAAAAAiAAAAIAEQAAAAAAgQAAABAA=</HashCode>
+      <FileName>Sprite\SpriteBatch.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
