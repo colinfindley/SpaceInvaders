@@ -589,10 +589,6 @@ pixels to the right, it passes the request down the tree to the columns and subs
 
 to each leaf where it adds five to the x coordinate of each sprite. When a method is
 
-
-
-<a name="br19"></a> 
-
 called in a composite class, the “real” work is done in the leaf classes. What is
 
 happening under the hood when Move() is called on a column vs. a leaf is completely
