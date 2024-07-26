@@ -8,7 +8,7 @@
 
 <br><br>
 ## **Factory Pattern**
-
+![Main Interface](Images/factory.png)
 <br>
 
 **A. The Problem and Solution:**
@@ -76,6 +76,7 @@ ___
 
 
 ## **Proxy Pattern**
+![Main Interface](Images/strategyy.png)
 <br>
 
 **A. The Problem and Solution:**
@@ -281,6 +282,7 @@ ___
 <a name="br10"></a> 
 
 ## **Strategy Pattern**
+![Main Interface](Images/strategy.png)
 <br>
 
 **A. The Problem and Solution:**
@@ -347,6 +349,7 @@ ___
 <a name="br12"></a> 
 
 ## **Command Pattern**
+![Main Interface](Images/command.png)
 <br>
 
 **A. The Problem and Solution:**
@@ -423,6 +426,7 @@ as well as the amount that they should be moved.
 ___
 
 ## **Visitor Pattern**
+![Main Interface](Images/visitor.png)
 <br>
 
 **A. The Problem and Solution:**
@@ -538,6 +542,7 @@ should be notified, and which specific actions should be taken when two pairs co
 ___
 
 ## **Composite Pattern**
+![Main Interface](Images/composite.png)
 <br>
 
 **A. The Problem and Solution**
@@ -658,6 +663,7 @@ ___
 
 ## **Template Pattern**
 <br>
+
 **A. The Problem and Solution**
 
 The problem is how to define a common structure for managers to follow while still
@@ -713,6 +719,7 @@ goal. For example, the SoundNodeMan, has a PlaySound() method, which finds a
 specific sound node and plays the audio from the sound engine.
 
 ## **Priority Queue Pattern**
+![Main Interface](Images/priorityqueue.png)
 <br>
 <a name="br23"></a> 
 
@@ -767,7 +774,7 @@ triggered. Priority Queue allows us to sort the list so that we can optimize the
 this way.
 
 ## **Iterator Pattern**
-
+![Main Interface](Images/iterator.png)
 
 
 <a name="br25"></a> 
@@ -813,6 +820,7 @@ traverse.
 <a name="br26"></a> 
 
 ## **Object Pooling**
+![Main Interface](Images/objectpooling.png)
 <br>
 
 **A. The Problem and Solution:**
